@@ -1,4 +1,4 @@
---WRITE a PLSQL Procedure to ask DeptNo from user and display the details of employees (Using Cursors)
+
 set serveroutput on
 create or replace procedure p1
 (
