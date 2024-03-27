@@ -4,6 +4,7 @@
 
 CREATE GLOBAL TEMPORARY TABLE TempEmployees (
     EmployeeID NUMBER,
+    settle_Date  date, 
     salary number,
     mail varchar,
     LastName VARCHAR2(50),

@@ -15,5 +15,8 @@ dbms_output.put_line(i.first_name||' '||i.salary);
 exit when c1 %notfound;
 end loop;
 close c1;
+exception 
+when no data found then 
+Error;
 end;
 /
