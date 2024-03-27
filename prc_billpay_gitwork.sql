@@ -3,7 +3,6 @@ Create or replace procedure electricity_bill
 p_name out varchar,
 p_dueamount out number,
 p_duedate  out date,
-p_board out varchar,
 p_msg out varchar2
 )
 as
